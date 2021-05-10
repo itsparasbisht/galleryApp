@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+.head {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.head > img {
+  width: 60px;
+}
+.head > small {
+  font-family: "Sigmar One", cursive;
+  font-size: 25px;
+  margin-left: 15px;
+}
+.header > h1 {
+  font-family: "Sigmar One", cursive;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(255, 0, 85);
+}
+.header > h3 {
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+@media all and (max-width: 700px) {
+  .head > img {
+    width: 50px;
+  }
+  .head > small {
+    font-family: "Sigmar One", cursive;
+    font-size: 21px;
+    margin-left: 15px;
+  }
+  .header > h1 {
+    font-family: "Sigmar One", cursive;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 27px;
+    color: rgb(255, 0, 85);
+  }
+  .header > h3 {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .head > img {
+    width: 40px;
+  }
+  .head > small {
+    font-family: "Sigmar One", cursive;
+    font-size: 21px;
+    margin-left: 15px;
+  }
+  .header > h1 {
+    font-size: 25px;
+  }
+  .header > h3 {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .head > img {
+    width: 40px;
+  }
+  .head > small {
+    font-family: "Sigmar One", cursive;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .header > h1 {
+    font-size: 22px;
+  }
+  .header > h3 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}

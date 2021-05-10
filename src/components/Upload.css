@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+input {
+  display: none;
+}
+form > label > img {
+  width: 40px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+form > label > img:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(0, 110, 255);
+}
+.output {
+  text-align: center;
+  margin-top: 15px;
+  height: 60px;
+  font-size: 19px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.error {
+  color: red;
+  font-size: 21px;
+}
+.file-name {
+  color: rgb(255, 0, 85);
+  font-size: 17px;
+}
+
+@media all and (max-width: 700px) {
+  form > label > img {
+    width: 30px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  form > label > img {
+    width: 20px;
+  }
+  .output {
+    text-align: center;
+    margin-top: 15px;
+    height: 60px;
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  .error {
+    color: red;
+    font-size: 17px;
+  }
+  .file-name {
+    color: rgb(255, 0, 85);
+    font-size: 15px;
+  }
+}
